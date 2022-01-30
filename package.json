@@ -1,6 +1,6 @@
 {
-  "name": "@league-of-foundry-developers/foundry-vtt-dnd5e-types",
-  "version": "1.5.2-2",
+  "name": "@mr-byte/foundry-vtt-dnd5e-types",
+  "version": "9.254.0-1.5.2",
   "description": "TypeScript type definitions for the dnd5e system of Foundry VTT",
   "scripts": {
     "lint": "tsc && eslint --ext .d.ts .",
@@ -13,14 +13,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/League-of-Foundry-Developers/foundry-vtt-dnd5e-types"
+    "url": "https://github.com/Mr-Byte/foundry-vtt-dnd5e-types"
   },
   "author": "Andrew Krigline",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/League-of-Foundry-Developers/foundry-vtt-dnd5e-types/issues"
+    "url": "https://github.com/Mr-Byte/foundry-vtt-dnd5e-types/issues"
   },
-  "homepage": "https://github.com/League-of-Foundry-Developers/foundry-vtt-dnd5e-types",
+  "homepage": "https://github.com/Mr-Byte/foundry-vtt-dnd5e-types",
   "keywords": [
     "foundry",
     "foundry-vtt",
