@@ -14,7 +14,8 @@ declare class ActorHitDiceConfig
     >,
     import('@league-of-foundry-developers/foundry-vtt-types/src/foundry/common/abstract/document.mjs').default<any, any>
   >
-  implements DocumentSheet {
+  implements DocumentSheet
+{
   /** @override */
   get defaultOptions(): import('@league-of-foundry-developers/foundry-vtt-types/src/foundry/common/utils/helpers.mjs').InsertKeys<
     {

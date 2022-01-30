@@ -10,9 +10,7 @@ declare class TokenDocument5e extends TokenDocument {
    * @param {object} data  The actor data.
    * @returns {{bar: string[], value: string[]}}
    */
-  static getConsumedAttributes(
-    data: object
-  ): {
+  static getConsumedAttributes(data: object): {
     bar: string[];
     value: string[];
   };

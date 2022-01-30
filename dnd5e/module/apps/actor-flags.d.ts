@@ -14,7 +14,8 @@ declare class ActorSheetFlags
     >,
     import('@league-of-foundry-developers/foundry-vtt-types/src/foundry/common/abstract/document.mjs').default<any, any>
   >
-  implements DocumentSheet {
+  implements DocumentSheet
+{
   static get defaultOptions(): import('@league-of-foundry-developers/foundry-vtt-types/src/foundry/common/utils/helpers.mjs').InsertKeys<
     {
       classes: string[];
@@ -32,7 +33,6 @@ declare class ActorSheetFlags
       id: string;
       title: string;
       scrollY: string[];
-      //@ts-expect-error Not sure why TabsConfiguration isn't around
       tabs: Omit<TabsConfiguration, 'callback'>[];
       dragDrop: Omit<DragDrop.Options, 'permissions' | 'callbacks'>[];
       filters: Omit<SearchFilter.Options, 'callback'>[];
